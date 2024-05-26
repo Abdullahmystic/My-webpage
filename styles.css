@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    padding-top: 0px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    color-scheme: black;
+}
+
+.btn{
+    margin-bottom:6%
+}
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+}

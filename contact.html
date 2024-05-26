@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Abdullah's Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="favorite-personalities.html">Favorite Personalities</a></li>
+                <li class="nav-item"><a class="nav-link" href="favorite-cities.html">Favorite Cities</a></li>
+                <li class="nav-item"><a class="nav-link" href="favorite-tourist-spots.html">Favorite Tourist Spots</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container" style="margin-top: 80px;">
+        <header class="text-center">
+            <h1>Contact Me</h1>
+            <p>I'd love to hear from you! Fill out the form below to get in touch.</p>
+        </header>
+
+        <!-- Contact Form -->
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="contact-number">Contact Number</label>
+                <input type="text" class="form-control" id="contact-number" placeholder="Enter your contact number" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center">
+        <div class="container">
+            <p>Follow me on:</p>
+            <a href="https://facebook.com/yourprofile" class="text-white mx-2">Facebook</a>
+            <a href="https://youtube.com/yourchannel" class="text-white mx-2">YouTube</a>
+            <a href="https://instagram.com/yourhandle" class="text-white mx-2">Instagram</a>
+            <a href="https://linkedin.com/in/yourprofile" class="text-white mx-2">LinkedIn</a>
+            <p>&copy; 2024 Muhammad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
